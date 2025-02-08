@@ -34,6 +34,6 @@ export async function GET(req: NextRequest) {
   return NextResponse.redirect(
     process.env.NODE_ENV === "development"
       ? "http://localhost:3000/"
-      : "https://hf_reddit.vercel.app/"
+      : "https://hfreddit.vercel.app/"
   );
 }
